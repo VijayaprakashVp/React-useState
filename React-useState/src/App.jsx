@@ -1,11 +1,15 @@
 import { useState } from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import { Counter } from "./components/counter";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App">Hello</div>;
+  return (
+    <div className="App">
+      <h1>React-useState</h1>
+      <Counter />
+    </div>
+  );
 }
 
 export default App;

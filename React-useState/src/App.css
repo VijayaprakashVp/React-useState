@@ -40,3 +40,9 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+.div {
+  border: 1px solid red;
+  width: 30%;
+  margin: auto;
+  margin-top: 2%;
+}
